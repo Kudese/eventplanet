@@ -9,13 +9,15 @@ const FilterBar = () => {
   return (
     <div className={css.wrapper}>
       <button className={css.button} type="button">
+        <span className={css.titleBusiness}>Business</span>
         <img className={css.iconFilters}  src={filters} alt="Filter event" />
       </button>
       <button className={css.button} type="button">
+      <span className={css.titleSort}>Sort by</span>
         <img className={css.iconSort} src={sort} alt="Sort event" />
       </button>
       <Link className={css.link}  to="/createvent">
-        
+      <span className={css.titleAddEvent}>Add new event</span>
         <img className={css.iconPlus} src={plus} alt="Add event" />
       </Link>
     </div>
