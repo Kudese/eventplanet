@@ -1,12 +1,16 @@
 {
   "files": {
-    "main.css": "/eventplanet/static/css/main.31d6cfe0.css",
-    "main.js": "/eventplanet/static/js/main.31249d0c.js",
+    "main.css": "/eventplanet/static/css/main.1404fa50.css",
+    "main.js": "/eventplanet/static/js/main.91f0889d.js",
+    "static/media/logo.svg": "/eventplanet/static/media/logo.5ded51be4be5d4b9d73941aa6b59d4f0.svg",
     "index.html": "/eventplanet/index.html",
-    "main.31249d0c.js.map": "/eventplanet/static/js/main.31249d0c.js.map"
+    "static/media/search.svg": "/eventplanet/static/media/search.70c6488ea63f11271b1399c16497d043.svg",
+    "static/media/shape.svg": "/eventplanet/static/media/shape.9bc84dc89614e3483490e7e1a0f808d6.svg",
+    "main.1404fa50.css.map": "/eventplanet/static/css/main.1404fa50.css.map",
+    "main.91f0889d.js.map": "/eventplanet/static/js/main.91f0889d.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.31249d0c.js"
+    "static/css/main.1404fa50.css",
+    "static/js/main.91f0889d.js"
   ]
 }
