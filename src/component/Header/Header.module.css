@@ -1,3 +1,7 @@
+.wraper {
+  border-bottom: 1px solid #7b61ff;
+  background: #fefcff;
+}
 .container {
   padding-left: 25px;
   padding-right: 25px;
@@ -25,11 +29,26 @@
 .header {
   padding-top: 24px;
   height: 168px;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 92px;
+  }
 }
 .logoWraper {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.linkLogo {
+  @media screen and (min-width: 768px) and (max-width: 1439px) {
+    display: flex;
+    margin-right: 80px;
+  }
+  @media screen and (min-width: 1440px) {
+    margin-right: 623px;
+  }
 }
 .chooseLanguage {
   display: flex;
@@ -40,6 +59,9 @@
   width: 69px;
   border-radius: 8px;
   box-shadow: 2px 4px 9px 0px rgba(166, 141, 174, 0.28);
+  @media screen and (min-width: 768px) {
+    margin-left: 24px;
+  }
 }
 .language {
   font-size: 16px;
@@ -55,21 +77,4 @@
   border-color: transparent;
   background-color: transparent;
   cursor: pointer;
-
-}
-.searchContainer{
-    display: flex;
-    align-items: center;
-    margin-top: 24px;
-    padding: 12px;
-    height: 48px;
-    box-shadow: 2px 4px 9px 0px rgba(166, 141, 174, 0.28);
-    border-radius: 10px;
-}
-.searchIcon{
-    height: 24px;
-
-}
-.search{
-    border-color: transparent;
 }

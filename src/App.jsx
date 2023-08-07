@@ -1,9 +1,9 @@
 import { BrowserRouter,Route, Routes } from "react-router-dom";
 import "./App.css";
-import Header from "./Header/Header";
-import ListEvent from "./ListEvent/ListEvent";
-import CreateEvent from "./CreateEvent/CreateEvent";
-import Event from "./Event/Event";
+import Header from "./component/Header/Header";
+import ListEvent from "./page/ListEvent/ListEvent";
+import CreateEvent from "./page/CreateEvent/CreateEvent";
+import Event from "./page/Event/Event";
 
 function App() {
   return (
