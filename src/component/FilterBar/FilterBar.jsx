@@ -8,6 +8,7 @@ import css from "./FilferBar.module.css"
 const FilterBar = () => {
   return (
     <div className={css.wrapper}>
+      <h1 className={css.title} >My events</h1>
       <button className={css.button} type="button">
         <span className={css.titleBusiness}>Business</span>
         <img className={css.iconFilters}  src={filters} alt="Filter event" />
