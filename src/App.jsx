@@ -12,7 +12,7 @@ function App() {
           <Route index path="" element={<Navigate to="list" />} />
           <Route path="list" element={<ListEvent />} />
           <Route path="createvent" element={<CreateEvent />} />
-          <Route path="event" element={<Event />} />
+          <Route path="list/:id" element={<Event />} />
         </Route>
       </Routes>
     </BrowserRouter>

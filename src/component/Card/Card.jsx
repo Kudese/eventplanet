@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import css from "./Card.module.css";
 const Card = (data) => {
   const {
@@ -10,13 +11,14 @@ const Card = (data) => {
     priority,
     date,
   } = data.card;
-  //"2098-07-20T12:45:10.935Z"
+  
   const time = date.substring(5, 10).replace("-", ".");
   const hour = date.substring(11, 16).startsWith("0")
     ? date.substring(11, 16).slice(1)
     : date.substring(11, 16);
-  console.log(time, hour);
+  
   return (
+    <Link to={`/list/${id}`} >
     <div className={css.card} id={id}>
         <img className={css.img} src={picture} alt={category} />
       <div className={css.timeConteiner}>
@@ -34,6 +36,7 @@ const Card = (data) => {
         <span className={css.priority}>{priority}</span>
       </div>
     </div>
+     </Link>
   );
 };
 export default Card;

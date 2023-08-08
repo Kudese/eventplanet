@@ -30,7 +30,10 @@ const Header = () => {
           </header>
         </div>
       </div>
+      <div className={css.background}>
       <Outlet />
+
+      </div>
     </>
   );
 };

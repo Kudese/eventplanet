@@ -5,6 +5,9 @@
   box-shadow: 2px 4px 9px 0px rgba(166, 141, 174, 0.28);
   border-radius: 12px;
   background-color: #fff;
+  @media screen and (max-width:767px) {
+    margin-bottom: 24px;
+  }
   @media screen and (min-width: 768px) {
     width: 332px;
     height: 480px;
@@ -17,6 +20,7 @@
 .img {
   width: 272px;
   height: 296px;
+  border-radius:  8px 8px 0 0 ;
   @media screen and (min-width: 768px) {
     width: 332px;
     height: 296px;
