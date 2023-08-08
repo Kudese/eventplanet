@@ -46,9 +46,9 @@ const CreateEvent = () => {
           <input className={css.priority} type="text" />
         </label>
       </form>
-        <button className={css.button} type="submit">
-          Add event
-        </button>
+      <button className={css.button} type="submit">
+        Add event
+      </button>
     </div>
   );
 };

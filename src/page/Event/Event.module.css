@@ -1,11 +1,11 @@
 .conteiner {
   @media screen and (min-width: 320px) and (max-width: 767px) {
-    width: 320px;
+    width: 272px;
     margin-left: auto;
     margin-right: auto;
   }
   @media screen and (min-width: 768px) and (max-width: 1439px) {
-    width: 720px;
+    width: 688px;
 
     margin-left: auto;
     margin-right: auto;
@@ -46,13 +46,21 @@
     font-size: 32px;
   }
 }
+.description {
+  width: 278px;
+}
 .card {
   border-radius: 8px;
   background: #fff;
   padding-bottom: 24px;
   margin-bottom: 12px;
   box-shadow: 2px 4px 9px 0px rgba(166, 141, 174, 0.28);
-  width: 688px;
+  @media screen and (max-width: 767px) {
+    width: 272px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 688px;
+  }
   margin-left: auto;
   margin-right: auto;
 }

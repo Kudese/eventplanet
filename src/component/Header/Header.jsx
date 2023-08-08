@@ -1,4 +1,4 @@
-import { Link, Outlet } from "react-router-dom"
+import { Link, Outlet } from "react-router-dom";
 
 import logo from "../../image/logo.svg";
 import shape from "../../image/shape.svg";
@@ -31,8 +31,7 @@ const Header = () => {
         </div>
       </div>
       <div className={css.background}>
-      <Outlet />
-
+        <Outlet />
       </div>
     </>
   );

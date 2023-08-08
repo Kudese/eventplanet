@@ -6,18 +6,17 @@
   @media screen and (min-width: 1440px) {
     padding-top: 60px;
   }
-  
 }
-.title{
+.title {
   display: none;
-  @media screen and (min-width:1440px) {
+  @media screen and (min-width: 1440px) {
     display: block;
   }
   margin-right: auto;
-font-size: 32px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 .iconFilters {
   width: 24px;

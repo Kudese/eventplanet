@@ -41,7 +41,7 @@ const Event = () => {
 
       <div className={css.card}>
         <img className={css.img} src={post?.picture} alt={post?.category} />
-        <p>{post?.description}</p>
+        <p className={css.description}>{post?.description}</p>
         <div className={css.wraperLabel}>
           <div className={css.label}>{post?.category}</div>
           <div className={css.label}>{post?.priority}</div>
